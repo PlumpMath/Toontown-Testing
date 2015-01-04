@@ -244,7 +244,7 @@ base.taskMgr.add(handleMovement, 'controlManager')
 localAvatar = catBody
 base.localAvatar = localAvatar
 
-playgroundarea = loader.loadModel('phase_4/models/neighborhoods/toontown_central.bam')
+playgroundarea = loader.loadModel('phase_4/models/neighborhoods/toontown_central_full.bam')
 playgroundarea.reparentTo(render)
 playgroundarea.setY(0)
 playgroundarea.setX(0)
